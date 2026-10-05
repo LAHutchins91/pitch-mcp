@@ -5,10 +5,16 @@
   "description": "Approved product facts, proof, and numbers a sales assistant is allowed to say, shared over MCP.",
   "version": "0.1.0",
   "websiteUrl": "https://github.com/LAHutchins91/pitch-mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/LAHutchins91/pitch-mcp/main/logo.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "http://localhost:3000/mcp"
+      "url": "https://pitch-mcp.vercel.app/mcp"
     }
   ]
 }
